@@ -1,0 +1,14 @@
+uuid: 5562ed51-4d36-4d1a-9bc2-0b79af3a6f44
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - chhavisharma3007@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
