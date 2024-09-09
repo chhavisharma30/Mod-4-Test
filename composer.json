@@ -20,6 +20,7 @@
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
         "drupal/devel": "^5.3",
+        "drupal/inline_entity_form": "^3.0@RC",
         "drupal/pathauto": "^1.13",
         "drupal/readmore": "^2.0@alpha",
         "drush/drush": "^12.5"

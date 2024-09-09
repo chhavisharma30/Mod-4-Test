@@ -3,8 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.article
-    - node.type.page
     - node.type.product
   module:
     - comment
@@ -29,21 +27,13 @@ permissions:
   - 'access files overview'
   - 'access toolbar'
   - 'administer url aliases'
-  - 'create article content'
-  - 'create page content'
   - 'create product content'
   - 'create url aliases'
   - 'delete any product content'
-  - 'delete article revisions'
-  - 'delete own article content'
   - 'delete own files'
-  - 'delete own page content'
   - 'delete own product content'
-  - 'delete page revisions'
   - 'edit any product content'
-  - 'edit own article content'
   - 'edit own comments'
-  - 'edit own page content'
   - 'edit own product content'
   - 'revert all revisions'
   - 'view all revisions'

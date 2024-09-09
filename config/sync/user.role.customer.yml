@@ -3,7 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
-    - buy_product
+    - buy_now
     - products_api
 id: customer
 label: Customer
@@ -11,4 +11,4 @@ weight: 4
 is_admin: null
 permissions:
   - 'access api'
-  - 'buy product'
+  - 'access buy now page'
