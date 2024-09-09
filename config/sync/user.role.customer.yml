@@ -1,0 +1,14 @@
+uuid: 4358ec4c-b435-4f93-a057-3efb89fb46e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - buy_product
+    - products_api
+id: customer
+label: Customer
+weight: 4
+is_admin: null
+permissions:
+  - 'access api'
+  - 'buy product'

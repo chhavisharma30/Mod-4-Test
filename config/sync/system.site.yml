@@ -6,7 +6,7 @@ name: 'Mod 4 Test'
 mail: chhavisharma3007@gmail.com
 slogan: ''
 page:
-  403: ''
+  403: /node/101
   404: ''
   front: /node
 admin_compact_mode: false

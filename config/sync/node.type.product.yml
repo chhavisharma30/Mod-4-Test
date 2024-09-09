@@ -1,0 +1,18 @@
+uuid: 6a9c2e9d-87b2-4304-80b2-847985528bc9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Product
+type: product
+description: 'Shopping products.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

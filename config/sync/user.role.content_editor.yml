@@ -5,24 +5,25 @@ dependencies:
   config:
     - node.type.article
     - node.type.page
-    - taxonomy.vocabulary.tags
+    - node.type.product
   module:
     - comment
     - contextual
     - file
     - node
     - path
+    - products_api
     - system
-    - taxonomy
     - toolbar
 _core:
   default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
 id: content_editor
-label: 'Content editor'
+label: 'Content admin'
 weight: 2
 is_admin: false
 permissions:
   - 'access administration pages'
+  - 'access api'
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
@@ -30,17 +31,20 @@ permissions:
   - 'administer url aliases'
   - 'create article content'
   - 'create page content'
-  - 'create terms in tags'
+  - 'create product content'
   - 'create url aliases'
+  - 'delete any product content'
   - 'delete article revisions'
   - 'delete own article content'
   - 'delete own files'
   - 'delete own page content'
+  - 'delete own product content'
   - 'delete page revisions'
+  - 'edit any product content'
   - 'edit own article content'
   - 'edit own comments'
   - 'edit own page content'
-  - 'edit terms in tags'
+  - 'edit own product content'
   - 'revert all revisions'
   - 'view all revisions'
   - 'view own unpublished content'
