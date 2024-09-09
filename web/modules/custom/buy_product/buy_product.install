@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * Implements hook_schema() to create a custom table for storing addresses.
+ */
+function buy_product_schema() {
+  $schema['customer_address'] = [
+    'description' => 'Stores customers address for product purchase.',
+    'fields' => [
+      'user_id' => [
+        'type' => 'int',
+        'not null' => TRUE,
+        'description' => 'User ID',
+      ],
+      'user_address' => [
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'description' => 'Shipping address',
+      ],
+    ],
+    'primary key' => ['uid'],
+  ];
+
+  return $schema;
+}

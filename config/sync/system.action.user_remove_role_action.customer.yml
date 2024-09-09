@@ -1,0 +1,14 @@
+uuid: eebff2f9-7c13-4b8d-af7b-f5919c64e7d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.customer
+  module:
+    - user
+id: user_remove_role_action.customer
+label: 'Remove the Customer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: customer

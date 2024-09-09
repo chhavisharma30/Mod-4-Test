@@ -1,0 +1,41 @@
+uuid: bc585bd3-d460-4f25-96d7-a38f2aa241aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.product
+  module:
+    - comment
+    - contextual
+    - file
+    - node
+    - path
+    - products_api
+    - system
+    - toolbar
+_core:
+  default_config_hash: e_wG1u7SrGaJbY2-Szgbgl-c8T3kdirU3uTNq2c_QJQ
+id: content_editor
+label: 'Content admin'
+weight: 2
+is_admin: false
+permissions:
+  - 'access administration pages'
+  - 'access api'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access toolbar'
+  - 'administer url aliases'
+  - 'create product content'
+  - 'create url aliases'
+  - 'delete any product content'
+  - 'delete own files'
+  - 'delete own product content'
+  - 'edit any product content'
+  - 'edit own comments'
+  - 'edit own product content'
+  - 'revert all revisions'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view the administration theme'

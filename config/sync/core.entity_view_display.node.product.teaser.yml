@@ -1,0 +1,28 @@
+uuid: 8faf5060-2def-4d04-8289-4fd304b8a15c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.product.field_category
+    - field.field.node.product.field_description
+    - field.field.node.product.field_images
+    - field.field.node.product.field_price
+    - node.type.product
+  module:
+    - user
+id: node.product.teaser
+targetEntityType: node
+bundle: product
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_category: true
+  field_description: true
+  field_images: true
+  field_price: true
